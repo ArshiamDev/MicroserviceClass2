@@ -1,4 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
+ENV DOTNET_SYSTEM_NET_HTTP_USESOCKETSHTTPHANDLER=0
+
+
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
