@@ -10,7 +10,7 @@ services:
     image: redis:alpine
 
   discountdb:
-    image: postgres  
+    image: postgres:15
 
   pgadmin:
     image: dpage/pgadmin4
