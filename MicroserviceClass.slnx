@@ -8,6 +8,7 @@
   </Folder>
   <Folder Name="/Services/Discount/">
     <Project Path="Services/Discount/Discount.Api/Discount.Api.csproj" Id="83209580-19c3-48cd-a9d1-269cdfec8e08" />
+    <Project Path="Services/Discount/Discount.Grpc/Discount.Grpc.csproj" Id="eb52b5f7-bddc-4383-b813-114134c4bfb5" />
   </Folder>
   <Project Path="docker-compose.dcproj">
     <Build />
